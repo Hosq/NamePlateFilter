@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: HideNamePlates
+## Author: Hosq
+## Notes: Hides nameplates for units listed in HiddenUnits.lua
+
+HiddenUnits.lua
+HideNamePlates.lua
