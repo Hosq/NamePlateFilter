@@ -1,4 +1,4 @@
-# HideNamePlates
+# NamePlateFilter
 Hides nameplates based on unitnames
 
 Add units you want hidden into HiddenUnits.lua

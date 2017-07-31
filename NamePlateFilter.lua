@@ -15,7 +15,7 @@ local function hideUnit(name)
 	return false;
 end
 
-function HideNamePlates_OnUpdate()
+function NamePlateFilter_OnUpdate()
 	local frames = { WorldFrame:GetChildren() };
 	for _, namePlate in ipairs(frames) do
 		if IsNamePlateFrame(namePlate) then
@@ -29,4 +29,4 @@ function HideNamePlates_OnUpdate()
 	end
 end
 local f = CreateFrame("Frame", nil, UIParent)
-f:SetScript("OnUpdate",HideNamePlates_OnUpdate)
+f:SetScript("OnUpdate",NamePlateFilter_OnUpdate)
